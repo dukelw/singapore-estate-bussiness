@@ -1,0 +1,56 @@
+.title {
+  margin-left: 20px;
+}
+
+.container {
+  margin: -60px -60px;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+
+.img-container {
+  position: relative;
+  min-height: 3000px;
+  overflow: hidden;
+
+  .introduction {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    text-align: center;
+    z-index: 80;
+
+    h1 {
+      width: 1200px;
+      font-size: 4rem;
+      margin-bottom: 0px;
+    }
+  }
+
+}
+
+.background-img {
+  position: relative;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/lewisshop/image/upload/v1735186891/estate_razw16.jpg");
+  // background-color: var(--black);
+  height: max-content;
+  min-height: 3000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.img-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 3000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}

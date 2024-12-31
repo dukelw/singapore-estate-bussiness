@@ -1,0 +1,32 @@
+const CONSTANTS = {
+  TOWN: [
+    "PUNGGOL",
+    "PASIR",
+    "CHOA",
+    "SENGKANG",
+    "TAMPINES",
+    "BUKIT",
+    "SEMBAWANG",
+    "BISHAN",
+    "WOODLANDS",
+    "BEDOK",
+    "BUKIT",
+    "BUKIT",
+    "JURONG",
+    "HOUGANG",
+    "BUKIT",
+    "KALLANG/WHAMPOA",
+    "ANG",
+    "JURONG",
+    "QUEENSTOWN",
+    "GEYLANG",
+    "CLEMENTI",
+    "MARINE",
+    "YISHUN",
+    "SERANGOON",
+    "TOA",
+    "CENTRAL",
+  ],
+};
+
+export default CONSTANTS;

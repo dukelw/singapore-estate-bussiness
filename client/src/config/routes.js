@@ -1,0 +1,25 @@
+const routes = {
+  updateSlider: "/update/slider/:id",
+  addSlider: "/slider/add",
+  comment: "/comment/:slug",
+  sliders: "/management/collection/:collection",
+  search: "/search/:keySearch",
+  signup: "/signup",
+  history: "/history",
+  property: "/properties",
+  signin: "/signin",
+  managementSlider: "/management/collection",
+  profile: "/profile/:id",
+  account: "/account/:id",
+  dashboardEstate: "/dashboard/estate",
+  dashboard: "/dashboard",
+  appraisal: "/appraisal",
+  estate: "/estate/:estateID",
+  about: "/about",
+  stories: "/stories",
+  agents: "/agents",
+  home: "/",
+  notFound: "*",
+};
+
+export default routes;
